@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="wxCard">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
+        <dependent-module archiveName="javabone_common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/javabone_common/javabone_common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cipmp2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/cipmp2/cipmp2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="wxCard"/>
+        <property name="java-output-path" value="/wxCard/build/classes"/>
+    </wb-module>
+</project-modules>

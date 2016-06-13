@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+/*=========================================公共样式==========================*/
+body, html, li, input, gloabl, h2, th, input, nav, td, h1, embed, blockquote, ol, xml, div, dl, dt, dd, ul, h3, h4, h5, h6, pre, form, fieldset, abbr, p, header, hgroup, Section, figure, section, nav, article, aside, canvas, button, dl, dt, dd, input, textarea {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+}
+ul, ol, li {
+	list-style:none;
+}
+em, i {
+	font-style:normal;
+}
+a img {border: medium none;  border: 0 none; outline: none;
+	border-radius:0;
+}
+input, textarea {
+	border-radius: 0;
+	outline: medium none;
+}
+input, img {
+	vertical-align:middle;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.cf:after {
+	clear: both;
+	content:"";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+a {
+	text-decoration:none;
+}
+i, s, b, em {
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none
+}
+.clearfix {
+	clear:both;
+}
+button {
+	outline:none;
+	border:none;
+	background:none;
+}
+.clearfix:after {
+	clear:both;
+	content:" ";
+	display:block;
+	font-size:0;
+	height:0;
+	visibility: hidden;
+	
+}
+.pr{ position:relative;}

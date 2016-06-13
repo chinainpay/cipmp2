@@ -1,0 +1,191 @@
+html,body,.main{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #F0EEF4;
+	padding-bottom: 20px;
+}
+
+.content1{
+	background-color: #00C846;
+	height: 35%;
+	position: relative;
+	color: #fff;
+}
+
+.logoImg{
+	position: absolute;
+	top: 10%;
+	left: 6%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+  	overflow: hidden;
+}
+
+.logoImg img{
+	width: 100%;
+	height: 100%;
+}
+
+.logoText{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+}
+
+.text1{
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	font-size: 40px;
+  	width: 100%;
+  	text-align: center;
+}
+
+.text2{
+	position: absolute;
+	bottom: 10%;
+	left: 0%;
+	color: rgba(255, 255, 255, 0.58);
+	font-size: 13px;
+	width: 100%;
+  	text-align: center;
+}
+.text3{
+	position: absolute;
+	top: 70%;
+	left: 0%;
+	font-size: 20px;
+  	width: 100%;
+  	text-align: center;
+  	color: rgba(255, 255, 255, 0.58);
+}
+
+
+.text4{
+	position: absolute;
+  top: 10%;
+  right: 6%;
+  width: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  font-size: 13px;
+}
+
+
+.item{
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff; 
+	border-bottom: 1px solid #C3C2C8;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.item.last{
+	border-bottom: 0px solid #C3C2C8;
+}
+
+.item > div{
+	float: left;
+}
+
+.item .left{
+	width: 50%;
+}
+
+.item .right{
+	color: #C3C2C8;
+	text-align: right;
+	width: 50%;
+}
+
+.margin-top15{
+	margin-top:15px;
+
+}
+
+.margin-top30{
+	margin-top:30px;
+}
+
+.margin-bottom30{
+	margin-bottom:30px;
+}
+
+.margin-bottom20{
+	margin-bottom:20px;
+}
+
+.btn{
+	background-color: #00C846; 
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 5px;
+	display: block;
+}
+
+.content2{
+	background-color: #fff;
+	min-height: 35%;
+	position: relative; 
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.content2-img{
+	width: 50%;
+}
+
+.content2-text1{
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.content2-text2{
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.qrCodeWarp{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 101;
+	background-color: #fff;
+	display: none;
+	text-align: center; 
+}
+
+.qrCodeWarp.show{
+	display: block;
+}
+
+
+ .qrCodeWarp span {
+	display: inline-block; 
+	width: 1px; 
+	height: 100%; 
+	vertical-align: middle; 
+}
+
+.qrCodeWarp img{
+	text-align: center;
+	-webkit-transform:rotate(90deg);
+	width: 150%;
+  	margin-left: -25%;
+  	margin-top: 62%;
+}
+
+.rotate90{
+
+}

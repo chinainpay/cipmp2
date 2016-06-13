@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cipmp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="http://www.cipmp.com/DTD/cipmp_v1.0.xsd">
+	<describe />
+	<platform>
+		<msurl>10000002.luoyi.gaohuitong.com:8787</msurl>
+		<application name="member-card" uuid="17f62c6d-b198-4efa-b086-983bd99b4b88" class="com.chinainpay.apps.service.App">
+			<describe>标签库测试</describe>
+			<manage>
+				<group display="会员信息管理" name="member">
+					<pagelet display="会员管理" name="memberList" class="com.chinainpay.apps.membercard.VipDataManagement"/>
+					<pagelet display="订单管理" name="memberOrderList" class="com.chinainpay.apps.membercard.MemberOrderManage"/>
+					<pagelet display="会员卡管理" name="memberCardList" class="com.chinainpay.apps.membercard.CardSalesData"/>
+					<pagelet display="交易查询" name="transacManage" class="com.chinainpay.apps.membercard.TransactionFlow"/>
+				</group>
+				<group display="优惠券管理" name="ticket">
+					<pagelet display="优惠券管理" name="ticketManager" class="com.chinainpay.apps.ticket.TicketManager"/>
+				</group>
+			</manage>
+		</application>
+	</platform>
+	<context-param>
+		<param name="yszxUrl" value="http://106.120.103.70:9192/"/>
+		<param name="spbillcreateip" value="113.207.36.11"/>
+		<param name="payurl" value="http://10000002.cipmp.qvcip.com/web/member-card/allWXPay.html"/>
+	</context-param>
+</cipmp>

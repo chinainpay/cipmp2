@@ -1,0 +1,172 @@
+@media screen and (max-device-width: 400px){
+}
+
+
+@-webkit-keyframes rotate{
+  from {-webkit-transform:rotate(360deg);}
+  to {-webkit-transform:rotate(0deg);}
+}
+
+/*公共样式*/	
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,form,fieldset,legend,input,select,textarea,button,th,td,menu,article{margin:0;padding:0;}
+html{width:100%;height:100%;overflow:auto;color:#333;} 
+body{width:100%;height:100%; font-size:16px; background:#F9F9F9;overflow:auto;} 
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}
+h1,h2,h3,h4,h5,h6,input,textarea,select,button,label{font-size:100%;font-weight:100;vertical-align:middle;}
+ul,dl,ol{list-style:none;}
+img,fieldset,input[type="submit"]{border:none;}
+input{outline:none;background:transparent;vertical-align:middle;}	
+table{border-collapse:collapse;border-spacing:0;}		
+button{cursor:pointer;border:none;}
+textarea{word-wrap:break-word;resize:none;}
+/* 去除输入框、文本域默认边框和IOS4下的内阴影 */
+input, textarea, select{border:none;outline:none;}
+/* 设置webkit内核下输入框属性placeholder中值的文件颜色 */
+::-webkit-input-placeholder{color:#C4C4C4;}
+body{font-family:"Helvetica";-webkit-user-select:none;/* 禁止选中文本 */-webkit-tap-highlight-color:rgba(0,0,0,0);/* 设置点击链接时遮罩层为全透明 */overflow-x:hidden;min-height:100%;}
+/* 设置webkit内核下文字大小不小于12px */
+html,body{-webkit-text-size-adjust:none;height:100%;}
+/* 禁止长按链接、按钮、输入框出现系统默认弹框菜单 */
+a,button,input{-webkit-touch-callout:none;}
+a,a:visited{text-decoration:none;-webkit-touch-callout:none;}
+a{text-decoration:none;color:#09f;cursor:pointer} 
+a:hover{color:#06f} 
+button,select,label,input{outline:none;}  
+i,s,b,em{ font-style:normal; font-weight:normal; text-decoration:none} 
+input[type="text"],input[type="password"]{outline:none;border:1px solid #ccc;font-family:'微软雅黑'}
+input[type="text"]:focus,input[type="password"]:focus{background:#ffe;border:1px solid #0af;}
+.fl{ float:left} .fr{ float:right}
+
+/*	字体	*/	
+.F12{font-size:12px}
+.t_cut{display: block;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+
+/*	margin	*/
+.mar_l_10{ margin-left:10px} .mar_l_20{ margin-left:20px} .mar_t_5{ margin-top:5px} .mar_b_5{margin-bottom:5px} .mar_b_20{margin-bottom:20px} .mar_r_10{margin-right:10px} .mar_0_10{margin-right:10px;margin-left:10px;}
+
+/* 鼠标样式*/ 
+.Hand{ cursor:pointer}
+
+/*显隐-位置*/ 
+.pr{position:relative}
+
+/* 清除浮动 */
+.clearfix{clear:both;zoom:1;height:0px;width:0;font-size:1px;}
+.cf{zoom:1}
+.cf:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.cf:before{display:table;content:" ";}
+
+.mask{
+	display:none;
+	z-index:99999;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background:rgba(0,0,0,0.5);
+}
+
+.loading{
+	display:none;
+	z-index:99999;
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:50px;
+	height:50px;
+	margin:-25px 0 0 -25px;
+}
+
+.loading img{
+	width:50px;
+}
+
+.hide{
+	display:none;
+}
+
+/* 清除浮动 */
+.clearfix{clear:both;zoom:1;height:0px;width:0;font-size:1px;_height:1px;_line-height:1px;}
+.cf{zoom:1}
+.cf:after{visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0;}
+/*.cf:before{display:none;content:"";font-size:0;height:0;}*/
+
+.btn{
+	background:#f60;
+	text-align:center;
+	border-radius:2px;
+	color:#fff;
+	box-shadow:0 1px 0 rgba(229,92,0,0.9);
+}
+
+.btn-disable{
+	background:#ddd;
+	color:#999;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	border:none;
+}
+
+.wrap{
+	margin:0px 10px 100px;
+	padding-top:30px;
+}
+
+/*图文混编样式*/
+.item-list ul{
+	float:left;
+	}
+
+.item-list > li{
+	padding:0 10px;	
+	margin-bottom:30px;
+}
+
+.item-list > li dl{
+	border:1px solid #bbb;
+	border-radius:5px;
+	overflow:hidden;
+}
+
+.item-list > li dl dt{
+	height:40px;
+	padding:0 10px;
+	line-height:40px;
+	background:#f1f1f1;
+	font-size:16px;
+	font-weight:bold;
+	border-bottom:1px solid #bbb;
+	border-radius:5px 5px 0 0;
+}
+
+.item-list > li dl dd{
+	padding:10px;
+	line-height:1.5;
+	background:#fff;
+	border-radius:0 0 5px 5px;
+}
+/*按钮样式*/
+.red-btn{display:block;height:50px;background:#F24A6C;border-bottom: 1px solid #910055;border-radius:5px;color:#fff;line-height:50px;text-align:center;font-size:20px;}
+.red-btn:hover, .red-btn:focus{color:#fff;}
+.red-btn-little{display:block;height:30px;background:#e5007f;border-bottom: 1px solid #910055;border-radius:5px;color:#fff;line-height:30px;text-align:center;font-size:16px;}
+/*自助服务顶部下拉列表框样式*/
+.sel-div{width:100%;height:45px;position:fixed !important;top:0px;left:0px;background:-moz-linear-gradient(#f5f5f5,#f1f1f1);/*火狐*/FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#f5f5f5,endColorStr=#f1f1f1); /*IE*/background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#f5f5f5), to(#f1f1f1));/*谷歌*/ }
+.sel-div .sel-div-wrap{border:1px solid #C0C0C0;clip:rect(0px,181px,18px,0px);overflow:hidden;margin:10px 10px;}
+.sel-div .sel-div-wrap-content{border:1px solid #F4F4F4;clip:rect(0px,179px,16px,0px);overflow:hidden;line-height:30px;}
+.sel-div select{position:relative;text-align:center;left:0px;font-size:18px;width:100%;height:90%;line-height:30px;border:0px;color:#909993;}
+
+
+
+/*表格信息*/
+.info-table ul{padding:2% 5% 3% 0%;}
+.info-table p{color:#9c9c9c;margin-top:8px;font-size:12px;}
+.info-table .shadow{
+	width:100%;
+	height:40px;
+	background-color:white;
+	border:1px solid #c0c0c0;
+	font-size:16px;
+	color:#939292;
+	padding:3px 8px;
+	border-radius:6px;
+	}

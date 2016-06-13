@@ -1,0 +1,71 @@
+html,body,.main{
+	width: 100%; 
+	margin: 0;
+	background-color: #F0EEF4;
+}
+
+
+.list{
+	padding: 10px;
+}
+
+.item{
+	height:150px;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+
+.content1{
+	background-color: #00C846;
+	height: 70%;
+	position: relative;
+	color: #fff;
+}
+
+.logoImg{ 
+	  width: 70.5px;
+	  height: 73px;
+	  border-radius: 50%;
+	  overflow: hidden;
+	  float: left;
+	  margin-left: 15px;
+	  margin-top: 15px;
+}
+
+.logoImg img{
+	width: 100%;
+	height: 100%;
+}
+
+.logoText{ 
+	margin-left: 15px;
+  	float: left;
+  	margin-top: 40px;
+}
+
+.content2{
+	height: 30%;
+	  background-color: #fff;
+	  font-size: 14px;
+	  line-height: 45px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+}
+
+.content2 > div{
+	float: left;
+	height: 100%;
+}
+
+.left{
+	width: 50%;
+	color: #C3C2C8;
+}
+
+.right{
+	color: #C3C2C8;
+	text-align: right;
+	width: 50%; 
+}
